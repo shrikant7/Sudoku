@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:background="@color/background"
+    tools:context="com.example.sudoku.Sudoku">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingRight="@dimen/dp_20"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"
+        />
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:stretchColumns="*"
+            >
+        <TableRow>
+    <Button
+        android:text="@string/continue_l"
+        android:padding="@dimen/dp_20"
+        android:id="@+id/continue_b"
+        />
+    <Button
+        android:text="@string/new_game_l"
+        android:padding="@dimen/dp_20"
+        android:id="@+id/new_game_b"
+        />
+        </TableRow>
+    <TableRow>
+    <Button
+        android:text="@string/about_l"
+        android:padding="@dimen/dp_20"
+        android:id="@+id/about_b"
+        />
+    <Button
+        android:text="@string/exit_l"
+        android:padding="@dimen/dp_20"
+        android:id="@+id/exit_b"
+        />
+    </TableRow>
+        </TableLayout>
+</LinearLayout>
+</LinearLayout>
