@@ -5,6 +5,10 @@ the grid so that each row, each column, and each of the 3\*3 boxes
 (also called <i>blocks</i>) contains the digits 1 to 9 exactly ones.
 
 ####Photos:
-https://drive.google.com/file/d/0B1cwFrXjoHYtTEQ4Zk91SmhSOWM/view?usp=sharing
-https://drive.google.com/file/d/0B1cwFrXjoHYtMlB6RUpISl9HNXM/view?usp=sharing
-https://drive.google.com/file/d/0B1cwFrXjoHYtcmM2bzJWMEFYRU0/view?usp=sharing
+<table>
+  <tr>
+    <td><img src="./app/src/main/res/drawable/Screenshot_2016-08-04-03-46-17.jpg"></td>
+    <td><img src="./app/src/main/res/drawable/Screenshot_2016-08-04-03-46-23.jpg"></td>
+    <td><img src="./app/src/main/res/drawable/Screenshot_2016-08-04-03-46-29.jpg"></td>
+  </tr>
+</table>
